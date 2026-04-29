@@ -1,5 +1,3 @@
-version: "3"
-
 services:
   pihole:
     container_name: pihole
@@ -10,7 +8,9 @@ services:
       - "8080:80/tcp"
     environment:
       TZ: 'Europe/Zagreb'
-      WEBPASSWORD: 'main'
+      WEBPASSWORD: main
+      FTLCONF_LOCAL_IPV4: 192.168.10.100
+      DNSMASQ_LISTENING: all
     volumes:
       - './etc-pihole:/etc/pihole'
       - './etc-dnsmasq.d:/etc/dnsmasq.d'

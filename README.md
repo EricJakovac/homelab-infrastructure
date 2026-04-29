@@ -35,6 +35,7 @@ Konfiguriran kao stabilno CLI okruženje za administraciju.
 Pi-hole radi kao primarni DNS servis unutar Docker kontejnera.
 * **Perzistencija:** Podaci se čuvaju u lokalnim volumenima radi sigurnosti.
 * **Mapiranje portova:** Eksponiranje DNS (53) i Web Admin (80) portova prema lokalnoj mreži.
+* **Networking Challenge:** Implementirana konfiguracija `dns.listeningMode=all`(Expert mode u v6) kako bi se omogućila DNS rezolucija za klijente izvan Docker mreže, rješavajući inicijalne Timeout probleme na portu 53.
 
 ## Screenshots
 

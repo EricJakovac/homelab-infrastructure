@@ -1,0 +1,3 @@
+docker/pihole/etc-pihole/
+docker/pihole/etc-dnsmasq.d/
+*.log
