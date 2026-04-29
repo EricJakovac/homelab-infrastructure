@@ -1,6 +1,6 @@
 version: "3"
 services:
-  moja-stranica:
+  web-server:
     image: nginx:latest
     container_name: web-server
     ports:
