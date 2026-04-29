@@ -1,4 +1,3 @@
-# homelab-infrastructure
 # Multi-node Linux Home Lab i Infrastruktura
 
 ## Pregled projekta
