@@ -38,9 +38,18 @@ Pi-hole radi kao primarni DNS servis unutar Docker kontejnera.
 * **Networking Challenge:** Implementirana konfiguracija `dns.listeningMode=all`(Expert mode u v6) kako bi se omogućila DNS rezolucija za klijente izvan Docker mreže, rješavajući inicijalne Timeout probleme na portu 53.
 
 ## Screenshots
-![Mrežna konekcija](./docs/screenshots/server-connection.png)
-![HomeLab Index Page](./docs/screenshots/HomeLabIndex.png)
-![Pihole Dashboard](./docs/screenshots/Pihole.png)
+<table>
+  <tr>
+    <td align="center"><b>Mrežna konekcija</b></td>
+    <td align="center"><b>HomeLab Index</b></td>
+    <td align="center"><b>Pihole Dashboard</b></td>
+  </tr>
+  <tr>
+    <td><img src="./docs/screenshots/server-connection.png" width="250"></td>
+    <td><img src="./docs/screenshots/HomeLabIndex.png" width="250"></td>
+    <td><img src="./docs/screenshots/Pihole.png" width="250"></td>
+  </tr>
+</table>
 
 ---
 **Autor:** Eric Jakovac
